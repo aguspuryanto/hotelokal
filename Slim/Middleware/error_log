@@ -1,0 +1,5 @@
+[29-Feb-2016 11:52:57 Asia/Singapore] PHP Fatal error:  Class 'Slim_Middleware' not found in /home/surabaya/public_html/hotelokal.com/Slim/Middleware/ContentTypes.php on line 47
+[29-Feb-2016 11:52:57 Asia/Singapore] PHP Fatal error:  Class 'Slim_Middleware' not found in /home/surabaya/public_html/hotelokal.com/Slim/Middleware/Flash.php on line 47
+[29-Feb-2016 11:52:58 Asia/Singapore] PHP Fatal error:  Class 'Slim_Middleware' not found in /home/surabaya/public_html/hotelokal.com/Slim/Middleware/MethodOverride.php on line 48
+[29-Feb-2016 11:52:59 Asia/Singapore] PHP Fatal error:  Class 'Slim_Middleware' not found in /home/surabaya/public_html/hotelokal.com/Slim/Middleware/PrettyExceptions.php on line 44
+[29-Feb-2016 11:53:00 Asia/Singapore] PHP Fatal error:  Class 'Slim_Middleware' not found in /home/surabaya/public_html/hotelokal.com/Slim/Middleware/SessionCookie.php on line 60

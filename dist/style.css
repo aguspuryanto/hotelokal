@@ -1,0 +1,173 @@
+body {
+	font-family: "Raleway", Lucida Sans Unicode, Arial, "Helvetica Neue", Helvetica, sans-serif;
+	padding-top: 51px;
+	margin-bottom: 0px;
+}
+
+html, body{ /*height:100%; margin:0; padding:0;*/ }
+
+.container {
+}
+
+* {
+    border-radius: 0 !important;
+}
+
+.container {
+	max-width: 960px;
+    margin: 0 auto;
+}
+
+.filter {
+    padding-bottom: 10px;
+}
+
+/* SINGLE */
+.breadcrumb {
+	margin-top: 20px;
+}
+
+.hotel_detail_img img{
+	width: 100%;
+	padding: 0px;
+}
+
+/* SIDEBAR */
+
+#sidebar {
+  height: 100%;
+  padding-right: 0;
+  padding-top: 20px;
+}
+#sidebar .nav {
+  width: 95%;
+}
+#sidebar li {
+  border:0 #f2f2f2 solid;
+  border-bottom-width:1px;
+}
+
+.panel-related .media-list .media {
+	border-bottom: 1px solid #ddd;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+
+.panel-related .media-list .media:last-child {
+	border-bottom: none;
+	padding-bottom: 0px;
+}
+
+#reset_filters { margin-bottom: 20px; }
+
+#reset_filters ul.list-group {
+	margin-bottom: 0px;
+}
+
+/* collapsed sidebar styles */
+@media screen and (max-width: 767px) {
+  .row-offcanvas {
+    position: relative;
+    -webkit-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    transition: all 0.25s ease-out;
+  }
+  .row-offcanvas-right
+  .sidebar-offcanvas {
+    right: -41.6%;
+  }
+
+  .row-offcanvas-left
+  .sidebar-offcanvas {
+    left: -41.6%;
+  }
+  .row-offcanvas-right.active {
+    right: 41.6%;
+  }
+  .row-offcanvas-left.active {
+    left: 41.6%;
+  }
+  .sidebar-offcanvas {
+    position: absolute;
+    top: 0;
+    width: 41.6%;
+  }
+  #sidebar {
+    padding-top:0;
+  }
+}
+
+/* custom */
+.jumbotron {
+	margin-bottom: 0px;
+}
+
+.search_home {
+	background: rgba(23, 158, 229, 0.7);
+	opacity:0.9;
+    z-index: 20;
+	padding-bottom: 40px;
+}
+
+.search_home .form-control,
+.search_home .btn {
+	width: 100%;
+}
+
+.carousel-inner .carousel-caption {
+	display: none;
+}
+
+/* Hotel */
+.hinfo,
+.hprice {
+    position: relative;
+}
+
+.col-bottom {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+
+#footer {
+	position: relative;
+	background-color: #31373a;
+	padding-top: 20px;
+	margin-top: 20px;
+}
+#footer p { color: #aaa; margin-bottom: 0;	}
+#footer a {color: #FFF;}
+
+.row.no-gutters {
+	margin-right: 0;
+	margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.row-no-padding > [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+#bookingaff {
+	margin-top: 20px;
+}
+
+.portfolio-item {
+    width: 300px;
+    margin: 0 0px 20px 0;
+}
+
+.portfolio-item img {
+	width: 100%;
+}
+
+.page-header {
+	padding: 0px;
+}
